@@ -1,0 +1,122 @@
+/*
+	Template Name: 
+	Template Author: 
+	
+*/
+@import url('tempplate.css');
+@media only screen and (max-width: 600px) {
+	
+	header{ text-align:center; }
+.sitetitle, .topmenu{line-height:80px; } 
+.sitetitle{  width:100%; float:left; }
+.sitetitle h1{ font-size:1.3em; line-height:80px;}
+.topmenu li a{color:#fff; text-decoration:none; margin:0 0.5%; font-size:0.5em; font-weight:bold; line-height:50px; }
+.sitetitle, .topmenu{line-height:30px; text-align:center; width:100%; }
+
+nav{display:none; }
+
+/*slider style*/
+.sliderBox{
+	background:red; 
+	padding:0% 0%; 
+	overflow:hidden !important; 
+}
+.slider{
+	min-height:250px !important; 
+	width:500%; 
+	padding:0% 10%;
+	overflow:hidden; 
+	animation: mySlide 25s infinite;
+}
+.slider-items{ width:20%; float:left; }
+.slider-items img{ display:none; }
+<!---->/*services style*/
+.service{/**/ padding:0 2% 10px 2%; }
+.service-title{ padding:4px 2px; text-align:center; }
+.service-title p{ font-size:1em; color:#000; font-weight:bold;  }
+.card-holder{padding:2px; }
+.card{ width:100%; box-shadow:0px 0px 1px black; margin:3%;  text-align:center; }
+.card .card-title{ min-height:30px; text-align:center; font-size:1.0em; padding:15px 5px;   font-weight:bold; opacity:0.9; }
+<!---->
+.grid-3 .service-title{ padding:4px 2px 2px 2px; text-align:center; }
+.grid-3 .card{background:#fff;  width:100%; box-shadow:0px 0px 1px black; margin:3%; }
+.grid-3 .card-title{ min-height:60px; text-align:center; font-size:2.0em; padding:20px 10px;}
+<!---->/*footer style*/
+.footer{ margin:0px auto; min-height:100px; background:#E5E5E5; padding:0 5%; }
+.footer .footer-link-line{ padding:10px 5px; text-align:center; line-height:20px; }
+.footer .footer-link-line a{ color:#47B4DD; font-size:0.5em; margin:5px; }
+
+	
+.sliderBox{
+	background:red; 
+	padding:0% 0%; 
+	overflow:hidden !important; 
+	
+}
+			.slider{
+				min-height:350px; 
+				width:500%; 
+				padding:0% 10%;
+				overflow:hidden; 
+				animation: mySlide 25s infinite;
+			}
+			.slider-items{ width:20%; float:left; }
+			.slider-items img{ width:100%; height:350px; }
+			
+			@keyframes mySlide {
+			  0%   {margin-left:0%; }
+			  25%  {margin-left:-100%; }
+			  50%  {margin-left:-200%; }
+			  75% {margin-left:-300%; }
+			  100% {margin-left:-400%; }
+			  75% {margin-left:-300%; }
+			  50% {margin-left:-200%; }
+			  25% {margin-left:-100%; }
+			  0% {margin-left:-0%; }
+			}
+			.items{ width:100% !important;  text-align:center; }
+			.slider-content{ padding:1%; text-align:left; }
+			.slider-content h2{ font-size:20px; }
+			.slider-content p{ font-size:12px !important; padding:2px 0px; }
+			.slider-content a{ background:red; font-size:20px; padding:5px 15px; border-radius:5px; text-decoration:none; box-shadow:0px 0px 5px black; }
+			.slider-content a:hover{ background:blue; background:#fff; color:blue;   }
+ 
+
+}/*max width display respnsive end..*/
+
+.sliderBox{
+	background:red; 
+	padding:0% 0%; 
+	overflow:hidden !important; 
+	
+}
+			.slider{
+				min-height:350px; 
+				width:500%; 
+				padding:0% 10%;
+				overflow:hidden; 
+				animation: mySlide 25s infinite;
+			}
+			.slider-items{ width:20%; float:left; }
+			.slider-items img{ width:100%; height:350px; }
+			
+			@keyframes mySlide {
+			  0%   {margin-left:0%; }
+			  25%  {margin-left:-100%; }
+			  50%  {margin-left:-200%; }
+			  75% {margin-left:-300%; }
+			  100% {margin-left:-400%; }
+			  75% {margin-left:-300%; }
+			  50% {margin-left:-200%; }
+			  25% {margin-left:-100%; }
+			  0% {margin-left:-0%; }
+			}
+			.items{ width:40%; float:left; text-align:center; }
+			.slider-content{ padding:10%; text-align:left; }
+			.slider-content h2{ font-size:50px; }
+			.slider-content p{ font-size:18px !important; padding:10px 0px; }
+			.slider-content a{ background:red; font-size:20px; padding:5px 15px; border-radius:5px; text-decoration:none; box-shadow:0px 0px 5px black; }
+			.slider-content a:hover{ background:blue; background:#fff; color:blue; 
+			
+			}
+ 
